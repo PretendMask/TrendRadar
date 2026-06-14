@@ -365,9 +365,9 @@ ai:
 
   model: "deepseek/deepseek-v4-flash"
 
-  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: "sk-5ac1032a70a648ad911f58d50e322a59"                       # API Key（建议使用环境变量 AI_API_KEY）
   
-  api_base: ""                      # 自定义 API 地址（可选，绝大多数情况留空即可）
+  api_base: "https://api.deepseek.com"                      # 自定义 API 地址（可选，绝大多数情况留空即可）
                                     #
                                     # ❓ 什么时候需要填？
                                     #    当你使用的 AI 服务商不在上方支持列表中时。
