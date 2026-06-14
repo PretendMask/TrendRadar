@@ -478,9 +478,9 @@ advanced:
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
-    hotness: 0.1                      # 热度权重
+    rank: 0.65        # 提升排名权重，快速捕捉AI基础设施的突发热点
+    frequency: 0.25   # 保留一定频次权重，兼顾电力、新能源的持续性话题
+    hotness: 0.10     # 保持默认热度权重
 
   # 多账号限制
   max_accounts_per_channel: 3         # 每个渠道最大账号数量
